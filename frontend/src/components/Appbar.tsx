@@ -3,8 +3,10 @@ import { Link } from "react-router-dom"
 
 export const Appbar = () => {
     return <div className="border-b flex justify-between px-10 py-4" >
-        <Link to={'/blogs'} className="flex justify-center flex-col">
-            Medium
+        <Link to={'/blogs'} className="flex justify-center flex-col text-xl
+font-bold
+">
+            Writehub
         </Link>
         <div>
         <Link to={`/publish`}>
